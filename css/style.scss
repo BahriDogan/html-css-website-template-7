@@ -1,0 +1,89 @@
+$backColor : #ffffff;
+$backgroundColor: #1a8c97;
+$twoColor: #e6ebf1;
+$buttonColor : #13646b;
+$sectionColor: #13646b;
+$borders: 5px;
+
+
+.navbar {
+   background-color: $backgroundColor !important;
+   margin-bottom: 0;
+   padding: 15px;
+   border-radius: $borders;
+   
+
+}  .navbar a {
+   color: $backColor !important;
+   font-size: 18px;
+   
+}
+
+
+#firstScreen {
+   background: url(../img/showcase.jpg) no-repeat 0 -100px;
+   height: 600px;
+   padding: 30px 0;
+
+   .container-fluid {
+      background: $backColor;
+      width: 85%;
+      opacity: 0.8;
+      padding: 20px 30px 30px 30px;
+
+      h1 {
+      font-size: 60px;
+      }
+      
+      .btn {
+         background-color: $backgroundColor;
+      }
+   }
+}
+
+#threeColumn {
+   background-color: $backgroundColor;
+   color: $backColor;
+   padding: 2em;
+   
+   .fa-html5, .fa-cog, .fa-lightbulb {
+      font-size: 3em;
+   }
+   
+}
+
+#twoColumn {
+   
+   background: $twoColor;
+   padding: 20px;
+   padding-bottom: 100px;
+   .card-header {
+      padding: 0 !important;
+      background-color: $backgroundColor;
+   .btn{
+      color: $backColor;
+   }
+   } 
+}
+
+#lastSection {
+   background: $backgroundColor;
+   color: $backColor;
+   padding: 60px 0px;
+   width: 100%;
+   height: 100%;
+
+   hr {
+      background: $backColor;
+   }
+   .btn {
+      background: $buttonColor;
+   }
+}
+
+#footer {
+   background: $sectionColor;
+   color: $backColor;
+   margin-bottom: 0px;
+   padding: 20px 0px;
+}

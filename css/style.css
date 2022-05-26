@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #1a8c97 !important;
+  margin-bottom: 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  color: #ffffff !important;
+  font-size: 18px;
+}
+
+#firstScreen {
+  background: url(../img/showcase.jpg) no-repeat 0 -100px;
+  height: 600px;
+  padding: 30px 0;
+}
+
+#firstScreen .container-fluid {
+  background: #ffffff;
+  width: 85%;
+  opacity: 0.8;
+  padding: 20px 30px 30px 30px;
+}
+
+#firstScreen .container-fluid h1 {
+  font-size: 60px;
+}
+
+#firstScreen .container-fluid .btn {
+  background-color: #1a8c97;
+}
+
+#threeColumn {
+  background-color: #1a8c97;
+  color: #ffffff;
+  padding: 2em;
+}
+
+#threeColumn .fa-html5, #threeColumn .fa-cog, #threeColumn .fa-lightbulb {
+  font-size: 3em;
+}
+
+#twoColumn {
+  background: #e6ebf1;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+#twoColumn .card-header {
+  padding: 0 !important;
+  background-color: #1a8c97;
+}
+
+#twoColumn .card-header .btn {
+  color: #ffffff;
+}
+
+#lastSection {
+  background: #1a8c97;
+  color: #ffffff;
+  padding: 60px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#lastSection hr {
+  background: #ffffff;
+}
+
+#lastSection .btn {
+  background: #13646b;
+}
+
+#footer {
+  background: #13646b;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding: 20px 0px;
+}
+/*# sourceMappingURL=style.css.map */
