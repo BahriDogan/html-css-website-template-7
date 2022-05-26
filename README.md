@@ -4,7 +4,7 @@ Online demo:
 https://website-example-template-7.netlify.app/
 
 ## Kullandığım teknolojiler:
-HTML, CSS,  JavaScript
+HTML, CSS,  JavaScript, SCSS
 
 
 ### GÖRÜNÜM:
